@@ -4,7 +4,11 @@ import './App.css';
 import Header from "./components/Header";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
-import {  BrowserRouter as Router,  Switch,  Route,  Link} from "react-router-dom";
+import About from "./components/About";
+import Explore from "./components/Explore";
+import Front from "./components/front/Front"
+
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 
 
@@ -14,20 +18,30 @@ class App extends Component {
     this.state = {}
   }
 
-
   render() {
     return (
       <Router>
-      <div className="App">
-        <Header/>
-        <Main/>
-        <Footer/>
-        
-      </div>
+        <div className="App">
+          <Header />
+          <Switch>
+            <Route exact path="/">
+              <Main />
+            </Route>
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/explore">
+              <Explore />
+            </Route>
+            <Route path="/front">
+              <Front />
+            </Route>
+          </Switch>
+          <Footer />
+        </div>
       </Router>
     );
   }
 }
-
 
 export default App;
