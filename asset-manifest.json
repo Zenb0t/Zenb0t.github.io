@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "//zenb0t.github.io/static/css/main.5fd527c5.chunk.css",
+    "main.js": "//zenb0t.github.io/static/js/main.8f93b14b.chunk.js",
+    "main.js.map": "//zenb0t.github.io/static/js/main.8f93b14b.chunk.js.map",
+    "runtime-main.js": "//zenb0t.github.io/static/js/runtime-main.d2032f5d.js",
+    "runtime-main.js.map": "//zenb0t.github.io/static/js/runtime-main.d2032f5d.js.map",
+    "static/css/2.0b3cff39.chunk.css": "//zenb0t.github.io/static/css/2.0b3cff39.chunk.css",
+    "static/js/2.2288e028.chunk.js": "//zenb0t.github.io/static/js/2.2288e028.chunk.js",
+    "static/js/2.2288e028.chunk.js.map": "//zenb0t.github.io/static/js/2.2288e028.chunk.js.map",
+    "index.html": "//zenb0t.github.io/index.html",
+    "precache-manifest.8e4f7bb738003339021c756bc3cfd19e.js": "//zenb0t.github.io/precache-manifest.8e4f7bb738003339021c756bc3cfd19e.js",
+    "service-worker.js": "//zenb0t.github.io/service-worker.js",
+    "static/css/2.0b3cff39.chunk.css.map": "//zenb0t.github.io/static/css/2.0b3cff39.chunk.css.map",
+    "static/css/main.5fd527c5.chunk.css.map": "//zenb0t.github.io/static/css/main.5fd527c5.chunk.css.map",
+    "static/js/2.2288e028.chunk.js.LICENSE.txt": "//zenb0t.github.io/static/js/2.2288e028.chunk.js.LICENSE.txt",
+    "static/media/custom.scss": "//zenb0t.github.io/static/media/hello-i-m-nik-qXakibuQiPU-unsplash.96bbc387.jpg",
+    "static/media/logoZazen.svg": "//zenb0t.github.io/static/media/logoZazen.e0f7f775.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d2032f5d.js",
+    "static/css/2.0b3cff39.chunk.css",
+    "static/js/2.2288e028.chunk.js",
+    "static/css/main.5fd527c5.chunk.css",
+    "static/js/main.8f93b14b.chunk.js"
+  ]
+}
