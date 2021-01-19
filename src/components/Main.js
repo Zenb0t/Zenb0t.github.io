@@ -25,7 +25,7 @@ const Main = (props) => {
                 </div>
             </Jumbotron>
             <hr></hr>
-            <div className="container">
+            <div className="container py-3">
                 <div className="row">
 
                     <div className="col-sm">

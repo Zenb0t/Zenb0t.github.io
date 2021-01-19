@@ -5,7 +5,7 @@ import Header from "./components/Header";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
 import About from "./components/About";
-import Explore from "./components/Explore";
+import Explore from "./components/websites/Explore";
 import Front from "./components/front/Front"
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -21,21 +21,23 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div className="App">
+        <div className="app">
           <Header />
           <Switch>
-            <Route exact path="/">
-              <Main />
-            </Route>
-            <Route path="/about">
-              <About />
-            </Route>
-            <Route path="/explore">
-              <Explore />
-            </Route>
-            <Route path="/front">
-              <Front />
-            </Route>
+            <div className="content">
+              <Route exact path="/">
+                <Main />
+              </Route>
+              <Route path="/about">
+                <About />
+              </Route>
+              <Route path="/explore">
+                <Explore />
+              </Route>
+              <Route path="/front">
+                <Front />
+              </Route>
+            </div>
           </Switch>
           <Footer />
         </div>

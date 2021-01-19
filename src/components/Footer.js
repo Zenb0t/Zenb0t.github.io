@@ -10,30 +10,34 @@ const gml = "mailto:zazen.coding@gmail.com"
 
 const Footer = (props) => {
 
-//TODO: Make white circle on the icons below
+    //TODO: Make white circle on the icons below
     return (
-        <div className="footer container">
-            <p>Hello I'm the footer</p>
+        <div className="footer container-fluid">
             <div className="row">
-                <div className="rounded m-2 border border-danger col">
+                <div className="col">
                     <a href={github} target="_blank"><FontAwesomeIcon
                         icon={faGithub}
-                        color="orange"
-                        size="2x" /></a>
+                        color="black"
+                        size="2x" />
+                        <p>Github</p>
+                    </a>
                 </div>
-                <div className="rounded border border-danger col">
+                <div className="col">
                     <a href={linkedin} target="_blank">
                         <FontAwesomeIcon
                             icon={faLinkedin}
-                            color="orange"
-                            size="2x" /></a>
+                            color="black"
+                            size="2x" />
+                        <p>Linkedin</p>
+                    </a>
                 </div>
-                <div className="rounded border border-danger col">
+                <div className="col">
                     <a href={gml} target="_blank">
                         <FontAwesomeIcon
                             icon={faEnvelope}
-                            color="orange"
+                            color="black"
                             size="2x" />
+                        <p>Contact</p>
                     </a>
                 </div>
             </div>
