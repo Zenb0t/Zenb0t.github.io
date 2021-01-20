@@ -1,27 +1,32 @@
 {
   "files": {
     "main.css": "/static/css/main.23d5f104.chunk.css",
-    "main.js": "/static/js/main.d8aa64fe.chunk.js",
-    "main.js.map": "/static/js/main.d8aa64fe.chunk.js.map",
+    "main.js": "/static/js/main.0f54f4ad.chunk.js",
+    "main.js.map": "/static/js/main.0f54f4ad.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1f3c6888.js",
     "runtime-main.js.map": "/static/js/runtime-main.1f3c6888.js.map",
     "static/css/2.0b3cff39.chunk.css": "/static/css/2.0b3cff39.chunk.css",
-    "static/js/2.ccc617b1.chunk.js": "/static/js/2.ccc617b1.chunk.js",
-    "static/js/2.ccc617b1.chunk.js.map": "/static/js/2.ccc617b1.chunk.js.map",
+    "static/js/2.76906a4e.chunk.js": "/static/js/2.76906a4e.chunk.js",
+    "static/js/2.76906a4e.chunk.js.map": "/static/js/2.76906a4e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.11fcc34c2a8aad09b277a84bfacbdb3c.js": "/precache-manifest.11fcc34c2a8aad09b277a84bfacbdb3c.js",
+    "precache-manifest.a73e37e7c8194df8be31b90c4c270374.js": "/precache-manifest.a73e37e7c8194df8be31b90c4c270374.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.0b3cff39.chunk.css.map": "/static/css/2.0b3cff39.chunk.css.map",
     "static/css/main.23d5f104.chunk.css.map": "/static/css/main.23d5f104.chunk.css.map",
-    "static/js/2.ccc617b1.chunk.js.LICENSE.txt": "/static/js/2.ccc617b1.chunk.js.LICENSE.txt",
+    "static/js/2.76906a4e.chunk.js.LICENSE.txt": "/static/js/2.76906a4e.chunk.js.LICENSE.txt",
+    "static/media/1920px-React.svg.png": "/static/media/1920px-React.svg.004a4214.png",
+    "static/media/400px-Figma-logo.svg.png": "/static/media/400px-Figma-logo.svg.0fcafffa.png",
+    "static/media/Google-flutter-logo.png": "/static/media/Google-flutter-logo.d21f1eec.png",
+    "static/media/MongoDB_Logo_FullColorBlack_RGB-4td3yuxzjs.png": "/static/media/MongoDB_Logo_FullColorBlack_RGB-4td3yuxzjs.3d40302b.png",
+    "static/media/Node.js_logo.svg": "/static/media/Node.js_logo.89ccb090.svg",
     "static/media/custom.scss": "/static/media/hello-i-m-nik-qXakibuQiPU-unsplash.96bbc387.jpg",
     "static/media/logoZazen.svg": "/static/media/logoZazen.e0f7f775.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.1f3c6888.js",
     "static/css/2.0b3cff39.chunk.css",
-    "static/js/2.ccc617b1.chunk.js",
+    "static/js/2.76906a4e.chunk.js",
     "static/css/main.23d5f104.chunk.css",
-    "static/js/main.d8aa64fe.chunk.js"
+    "static/js/main.0f54f4ad.chunk.js"
   ]
 }
