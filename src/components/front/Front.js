@@ -124,7 +124,7 @@ const Front = (props) => {
                 <div className="px-5 py-3">
                     <p className="text-sm-left"> This is a small Frontend, with API fetching and data sorting.
                     Under the hood, it uses axios for fetching and React hooks.
-                The full source code can be seen <a href="https://github.com/Zenb0t/userlist-frontend" target="_blank" ><strong>here</strong></a></p>
+                The full source code can be seen <a href="https://github.com/Zenb0t/userlist-frontend" target="_blank" rel="noopener noreferrer" ><strong>here</strong></a></p>
                     <p className="text-sm-left"> Since it uses a public API, there might be occasional network errors,
                     just refresh until the api responds.</p>
                 </div>

@@ -7,8 +7,11 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import Explore from "./components/websites/Explore";
 import Front from "./components/front/Front"
+import Stack from './components/Stack';
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import UXSection from './components/ux/UXSection';
+
 
 
 
@@ -36,6 +39,12 @@ class App extends Component {
               </Route>
               <Route path="/front">
                 <Front />
+              </Route>
+              <Route path="/stack">
+                <Stack />
+              </Route>
+              <Route path="/websites">
+                <UXSection />
               </Route>
             </div>
           </Switch>

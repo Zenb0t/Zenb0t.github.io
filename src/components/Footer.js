@@ -13,17 +13,18 @@ const Footer = (props) => {
     //TODO: Make white circle on the icons below
     return (
         <div className="footer container-fluid">
-            <div className="row">
-                <div className="col">
-                    <a href={github} target="_blank"><FontAwesomeIcon
-                        icon={faGithub}
-                        color="black"
-                        size="2x" />
+            <div className="row p-3 pt-5">
+                <div className="col" >
+                    <a href={github} target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon
+                            icon={faGithub}
+                            color="black"
+                            size="2x" />
                         <p>Github</p>
                     </a>
                 </div>
                 <div className="col">
-                    <a href={linkedin} target="_blank">
+                    <a href={linkedin} target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon
                             icon={faLinkedin}
                             color="black"
@@ -32,7 +33,7 @@ const Footer = (props) => {
                     </a>
                 </div>
                 <div className="col">
-                    <a href={gml} target="_blank">
+                    <a href={gml} target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon
                             icon={faEnvelope}
                             color="black"
