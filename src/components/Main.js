@@ -28,7 +28,7 @@ const Main = (props) => {
             <div className="container py-3">
                 <div className="row">
 
-                    <div className="col-sm">
+                    <div className="col-sm p-3">
                         <Link to="/front">
                             <FontAwesomeIcon
                                 icon={faLaptop}
@@ -39,7 +39,7 @@ const Main = (props) => {
                             <p>Front End Project</p>
                         </Link>
                     </div>
-                    <div className="col-sm">
+                    <div className="col-sm p-3">
                         <a href="https://github.com/Zenb0t/backend-recipesAPI">
                             <FontAwesomeIcon
                                 icon={faServer}
@@ -49,7 +49,7 @@ const Main = (props) => {
                             <p>Back End Project</p>
                         </a>
                     </div>
-                    <div className="col-sm">
+                    <div className="col-sm p-3">
                         <Link to="/websites">
                             <FontAwesomeIcon
                                 icon={faDesktop}

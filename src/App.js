@@ -27,7 +27,7 @@ class App extends Component {
         <div className="app">
           <Header />
           <Switch>
-            <div className="content">
+            
               <Route exact path="/">
                 <Main />
               </Route>
@@ -46,7 +46,6 @@ class App extends Component {
               <Route path="/websites">
                 <UXSection />
               </Route>
-            </div>
           </Switch>
           <Footer />
         </div>

@@ -11,23 +11,23 @@ const Stack = (props) => {
     return (
         <div className="container" id="Stack">
             <h2 className="mt-5">Here are some of the tech stacks I work with:</h2>
-            <div className="row align-items-center" style={{ height: 400 }}>
-                <div className="col-sm-4 p-1">
+            <div className="row align-items-center" >
+                <div className="col-sm-4 p-2">
                     <img src={mongoImg} width="200" />
                 </div>
-                <div className="col-sm-4 p-1">
+                <div className="col-sm-4 p-2">
                     <img src={expressImg} width="200" />
                 </div>
-                <div className="col-sm-4 p-1">
+                <div className="col-sm-4 p-2">
                     <img src={reactImg} width="150" />
                 </div>
-                <div className="col-sm-4 p-1">
+                <div className="col-sm-4 p-2">
                     <img src={nodeImg} width="150" />
                 </div>
-                <div className="col-sm-4 p-1">
+                <div className="col-sm-4 p-2">
                     <img src={flutterImg} width="200" />
                 </div>
-                <div className="col-sm-4 p-1">
+                <div className="col-sm-4 p-2">
                     <img src={figmaImg} width="80" />
                 </div>
             </div>
