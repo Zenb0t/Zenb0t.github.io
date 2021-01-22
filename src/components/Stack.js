@@ -13,22 +13,22 @@ const Stack = (props) => {
             <h2 className="mt-5">Here are some of the tech stacks I work with:</h2>
             <div className="row align-items-center" >
                 <div className="col-sm-4 p-2">
-                    <img src={mongoImg} width="200" />
+                    <img src={mongoImg} width="200" alt="mongodb Logo" />
                 </div>
                 <div className="col-sm-4 p-2">
-                    <img src={expressImg} width="200" />
+                    <img src={expressImg} width="200" alt="Express Logo" />
                 </div>
                 <div className="col-sm-4 p-2">
-                    <img src={reactImg} width="150" />
+                    <img src={reactImg} width="150" alt="React Logo" />
                 </div>
                 <div className="col-sm-4 p-2">
-                    <img src={nodeImg} width="150" />
+                    <img src={nodeImg} width="150" alt="Node Logo" />
                 </div>
                 <div className="col-sm-4 p-2">
-                    <img src={flutterImg} width="200" />
+                    <img src={flutterImg} width="200" alt="Flutter Logo" />
                 </div>
                 <div className="col-sm-4 p-2">
-                    <img src={figmaImg} width="80" />
+                    <img src={figmaImg} width="80" alt="Figma Logo" />
                 </div>
             </div>
         </div>

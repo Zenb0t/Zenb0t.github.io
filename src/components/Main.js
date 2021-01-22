@@ -9,7 +9,7 @@ import Stack from './Stack';
 const Main = (props) => {
 
     return (
-        <div className="h-100">
+        <main className="h-100">
             <Jumbotron className="main">
 
                 <h1>Hi I'm Felipe,</h1>
@@ -50,7 +50,7 @@ const Main = (props) => {
                         </a>
                     </div>
                     <div className="col-sm p-3">
-                        <Link to="/websites">
+                        <Link to="/esss">
                             <FontAwesomeIcon
                                 icon={faDesktop}
                                 color="orange"
@@ -63,7 +63,7 @@ const Main = (props) => {
             </div>
             <hr></hr>
             <Stack />
-        </div>
+        </main>
     );
 }
 

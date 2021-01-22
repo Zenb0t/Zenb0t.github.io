@@ -6,11 +6,11 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
 
-//TODO Make it collapsible
+//TODO Refactor Navbar
 const Header = (props) => {
 
   return (<Navbar bg="light" className="zen-nav" expand="lg">
-    <Navbar.Brand href="#home">
+    <Navbar.Brand as="span">
       <Link to="/" className="text-decoration-none">
         <img
           src={logo}
@@ -18,31 +18,31 @@ const Header = (props) => {
           height="30"
           className="d-inline-block align-top"
           alt="logo" />
-          <span>Zazen Code</span>
-          </Link>
+        <span>Zazen Code</span>
+      </Link>
     </Navbar.Brand>
 
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="col-lg-4 mr-auto">
-        <Nav.Link href="#home">
+        <Nav.Link>
           <Link to="/">Home</Link>
         </Nav.Link>
-        <Nav.Link href="#link">
+        <Nav.Link>
           <Link to="/about">About</Link>
         </Nav.Link>
         <NavDropdown title="Portfolio" id="basic-nav-dropdown">
-          <NavDropdown.Item href="#action/3.1">
+          <NavDropdown.Item>
             <Link to="/front">Front End</Link>
           </NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">
-            <Link to="/websites">Websites</Link>
+          <NavDropdown.Item >
+            <Link to="/esss">Web Projects</Link>
           </NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">
-            <a href="https://github.com/Zenb0t/">Github</a>
+          <NavDropdown.Item >
+            <a href="https://github.com/Zenb0t/">Backend</a>
           </NavDropdown.Item>
           <NavDropdown.Divider />
-          <NavDropdown.Item href="#action/3.4">
+          <NavDropdown.Item>
             <Link to="/stack">Stack</Link>
           </NavDropdown.Item>
         </NavDropdown>
