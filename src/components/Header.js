@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../img/logoZazen.svg';
 import Link from 'react-router-dom/Link';
+import Resume from '../files/resume.pdf'
 
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
@@ -44,6 +45,9 @@ const Header = (props) => {
           <NavDropdown.Divider />
           <NavDropdown.Item>
             <Link to="/stack">Stack</Link>
+          </NavDropdown.Item>
+          <NavDropdown.Item>
+            <Link to={Resume} target="_blank">Resume</Link>
           </NavDropdown.Item>
         </NavDropdown>
       </Nav>
