@@ -1,32 +1,33 @@
 {
   "files": {
     "main.css": "/static/css/main.a5ee271c.chunk.css",
-    "main.js": "/static/js/main.49bd04bf.chunk.js",
-    "main.js.map": "/static/js/main.49bd04bf.chunk.js.map",
+    "main.js": "/static/js/main.a84b345a.chunk.js",
+    "main.js.map": "/static/js/main.a84b345a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1f3c6888.js",
     "runtime-main.js.map": "/static/js/runtime-main.1f3c6888.js.map",
     "static/css/2.0b3cff39.chunk.css": "/static/css/2.0b3cff39.chunk.css",
-    "static/js/2.d5367b85.chunk.js": "/static/js/2.d5367b85.chunk.js",
-    "static/js/2.d5367b85.chunk.js.map": "/static/js/2.d5367b85.chunk.js.map",
+    "static/js/2.dc037095.chunk.js": "/static/js/2.dc037095.chunk.js",
+    "static/js/2.dc037095.chunk.js.map": "/static/js/2.dc037095.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d2b5d248383225a47c5d9f57bc4dda97.js": "/precache-manifest.d2b5d248383225a47c5d9f57bc4dda97.js",
+    "precache-manifest.8c44474ec477e3562ead78df0489ba5a.js": "/precache-manifest.8c44474ec477e3562ead78df0489ba5a.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.0b3cff39.chunk.css.map": "/static/css/2.0b3cff39.chunk.css.map",
     "static/css/main.a5ee271c.chunk.css.map": "/static/css/main.a5ee271c.chunk.css.map",
-    "static/js/2.d5367b85.chunk.js.LICENSE.txt": "/static/js/2.d5367b85.chunk.js.LICENSE.txt",
+    "static/js/2.dc037095.chunk.js.LICENSE.txt": "/static/js/2.dc037095.chunk.js.LICENSE.txt",
     "static/media/1920px-React.svg.png": "/static/media/1920px-React.svg.004a4214.png",
     "static/media/400px-Figma-logo.svg.png": "/static/media/400px-Figma-logo.svg.0fcafffa.png",
     "static/media/Google-flutter-logo.png": "/static/media/Google-flutter-logo.d21f1eec.png",
     "static/media/MongoDB_Logo_FullColorBlack_RGB-4td3yuxzjs.png": "/static/media/MongoDB_Logo_FullColorBlack_RGB-4td3yuxzjs.3d40302b.png",
     "static/media/Node.js_logo.svg": "/static/media/Node.js_logo.89ccb090.svg",
     "static/media/custom.scss": "/static/media/hello-i-m-nik-qXakibuQiPU-unsplash.96bbc387.jpg",
-    "static/media/logoZazen.svg": "/static/media/logoZazen.e0f7f775.svg"
+    "static/media/logoZazen.svg": "/static/media/logoZazen.e0f7f775.svg",
+    "static/media/resume.pdf": "/static/media/resume.e207e09a.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.1f3c6888.js",
     "static/css/2.0b3cff39.chunk.css",
-    "static/js/2.d5367b85.chunk.js",
+    "static/js/2.dc037095.chunk.js",
     "static/css/main.a5ee271c.chunk.css",
-    "static/js/main.49bd04bf.chunk.js"
+    "static/js/main.a84b345a.chunk.js"
   ]
 }

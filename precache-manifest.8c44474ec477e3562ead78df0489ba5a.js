@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "893dff6fc92725765c7343ce1c152916",
+    "revision": "fd93538e881e14294837570a2967407b",
     "url": "/index.html"
   },
   {
-    "revision": "18735171467c94cc411b",
+    "revision": "a61c4f58a43cbba586d7",
     "url": "/static/css/2.0b3cff39.chunk.css"
   },
   {
-    "revision": "7d3d5d5d51e62f2e974c",
+    "revision": "46e59fd384b8ec1bf908",
     "url": "/static/css/main.a5ee271c.chunk.css"
   },
   {
-    "revision": "18735171467c94cc411b",
-    "url": "/static/js/2.d5367b85.chunk.js"
+    "revision": "a61c4f58a43cbba586d7",
+    "url": "/static/js/2.dc037095.chunk.js"
   },
   {
     "revision": "ee2f0ebdf321a3fcb47efd5ede80e917",
-    "url": "/static/js/2.d5367b85.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.dc037095.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7d3d5d5d51e62f2e974c",
-    "url": "/static/js/main.49bd04bf.chunk.js"
+    "revision": "46e59fd384b8ec1bf908",
+    "url": "/static/js/main.a84b345a.chunk.js"
   },
   {
     "revision": "5bbf70a9d5794c5fc69f",
@@ -54,5 +54,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e0f7f775a83761b88f5ec080ec25addb",
     "url": "/static/media/logoZazen.e0f7f775.svg"
+  },
+  {
+    "revision": "e207e09a7e8581c64554e6e81e0eb8b0",
+    "url": "/static/media/resume.e207e09a.pdf"
   }
 ]);
