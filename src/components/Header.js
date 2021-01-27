@@ -46,7 +46,7 @@ const Header = (props) => {
           <NavDropdown.Item>
             <Link to="/stack">Stack</Link>
           </NavDropdown.Item>
-          <NavDropdown.Item>
+          <NavDropdown.Item href={Resume}>
             <Link to={Resume} target="_blank">Resume</Link>
           </NavDropdown.Item>
         </NavDropdown>
