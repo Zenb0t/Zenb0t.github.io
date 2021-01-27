@@ -5,9 +5,9 @@ const About = (props) => {
     return (
         <main className="about">
 
-            <h1 className="pl-sm-5">About</h1>
+            <h1 className="pl-md-5">About</h1>
             <hr></hr>
-                <p className="text-left px-sm-5 px-2">I am a seasoned businessman turned software developer,
+                <p className="text-left px-md-5 px-2">I am a seasoned businessman turned software developer,
                 graduating from British Columbia Institute of Technology.
                 My primary focus as a software developer is building front
                 end web and mobile applications and creating microservices
@@ -16,7 +16,7 @@ const About = (props) => {
                 new. Agile is my preferred philosophy and I follow Scrum as my main
                 framework.</p>
 
-                <p className="text-left px-sm-5 px-2 pb-3">Challenging problems are my greatest motivator, and I believe that
+                <p className="text-left px-md-5 px-2 pb-3">Challenging problems are my greatest motivator, and I believe that
                 technology play a big part on how we can effectively make a fairer
                 and more equitable world. I have a knack for arts and enjoy doing
                 some UX and UI design as well. My ideal role would allow me to use
